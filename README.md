@@ -14,7 +14,7 @@ In this task, the agent must be able to solve a large stochastic environment wit
 
 Due to its stochastic nature, the agent will be evaluated on 600 **different** environment configurations of the same size. The agent should be able to run on all test cases within 600 seconds. Half the test cases are restricted to a horizon of 40 (must reach the goal in 40 steps to be successful) while the remaining half have a horizon of 50.
 
-**The goal** is to build an agent that meets the following criterion:
+**The goal** is to build an agent that meets the following criteria:
 - Able to handle stochasticity.
 - Can only have access to an observation, not a state, in the form of an image (tensor).
 - In the testing server, the agent will have no access to the environment’s MDP, or its simulator. During training, you can access everything.
